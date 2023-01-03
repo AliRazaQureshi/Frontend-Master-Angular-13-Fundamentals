@@ -1,0 +1,13 @@
+<mat-list>
+  <mat-list-item
+    *ngFor="let lesson of lessons"
+    (click)="selected.emit(lesson)"
+  >
+    <h3 matline>{{ lesson.title | titlecase }}</h3>
+  </mat-list-item>
+</mat-list>
+<div *ngIf="selectedLesson">
+  <hr />
+  <pre>{{ selectedLesson | json }}</pre>
+  <button type="button" mat-button (click)="selected.emit(null)">Cancel</button>
+</div>

@@ -1,0 +1,20 @@
+<mat-toolbar color="accent"> Child Routes Example </mat-toolbar>
+
+<div>
+  <mat-card>
+    <mat-card-content>
+      <mat-list>
+        <mat-list-item [routerLink]="['/examples/child', 'payroll']">
+          Payroll
+        </mat-list-item>
+        <mat-list-item [routerLink]="['/examples/child', 'vacation']">
+          Vacation
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+  </mat-card>
+
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+</div>

@@ -1,0 +1,52 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Angular 13 Fundamentals",
+      "description": "Learn the fundamentals of Angular 13",
+      "percentComplete": 40,
+      "favorite": true
+    },
+    {
+      "id": 2,
+      "title": "Learning Vue Fundamentals Updated",
+      "description": "Learning Vue with Frontend Masters",
+      "percentComplete": 60,
+      "favorite": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "title": "Hello Angular"
+    },
+    {
+      "id": 2,
+      "title": "Component Fundamentals"
+    },
+    {
+      "id": 3,
+      "title": "Template Driven Forms"
+    },
+    {
+      "id": 4,
+      "title": "Angular Services"
+    },
+    {
+      "id": 5,
+      "title": "Server Communication"
+    },
+    {
+      "id": 6,
+      "title": "Component Driven Architecture"
+    },
+    {
+      "id": 7,
+      "title": "Angular Routing"
+    },
+    {
+      "id": 8,
+      "title": "Unit Testing Fundamentals"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title> Course Outline </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <app-lesson-list
+      [lessons]="courseLessons"
+      [selectedLesson]="selectedLesson"
+      (selected)="selectLesson($event)"
+    ></app-lesson-list>
+  </mat-card-content>
+</mat-card>
